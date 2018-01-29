@@ -30,11 +30,11 @@ namespace MyGame
             _energy += n;
         }
 
-        public Ship(Point pos, Point dir, Size size) : base(pos, dir, size)
+        public Ship(Point pos, Point dir, Size size) : base(pos, dir, size) 
         {
         }
 
-        public static event Message MessageDie;  //Внутри класса Ship создадим статическое событие:
+        public static event Message MessageDie;  //Внутри класса Ship создадим статическое событие: event Die starship
 
 
         public void Die()    // Когда корабль погибает вызываем это событие:
