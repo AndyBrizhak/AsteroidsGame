@@ -12,9 +12,10 @@ namespace MyGame
         private int _energy = 100;
         public int Energy => _energy;
 
-        private int _bonus = 0;
+        private int _bonus = 0;         /// init bonus energy
         public int Bonus => _bonus;
-        public void BonusPlus(int n)
+
+        public void BonusPlus(int n)    // add bonus enrgy
         {
             _bonus += n;
         }
