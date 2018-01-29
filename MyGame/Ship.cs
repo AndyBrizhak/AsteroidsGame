@@ -37,7 +37,7 @@ namespace MyGame
         public static event Message MessageDie;  //Внутри класса Ship создадим статическое событие: event Die starship
 
 
-        public void Die()    // Когда корабль погибает вызываем это событие:
+        public void Die()    // Когда корабль погибает вызываем это событие:   Die starship method
         {
             MessageDie?.Invoke();
             Console.WriteLine("Starship died!");
