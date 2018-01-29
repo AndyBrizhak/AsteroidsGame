@@ -25,7 +25,7 @@ namespace MyGame
             _energy -= n;
         }
 
-        public void EnergyHigh(int n)
+        public void EnergyHigh(int n) //add energy high
         {
             _energy += n;
         }
